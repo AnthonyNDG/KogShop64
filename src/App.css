@@ -1,38 +1,65 @@
-.App {
+:root{
+  --MyYellow: hsl(46, 100%, 91%);
+}
+.MainHeader{
+  position: relative;
+}
+.MainHeader::after{
+  width: 90%;
+  height: 2px;
+  content: '';
+  background-color: pink;
+  position: absolute;
+  left: 5%;
+}
+.Header{
+  height: 75px;
+  max-width: 500px;
+  margin: 0 auto;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+.Tab{
+  color: black;
+  font-size: 22px;
+  text-align: center;
+  align-content: center;
+  text-decoration: none;
+}
+.Tab:hover{
+  color: hotpink;
+}
+.Grid{
+  padding-top: 50px;
+  width: 80%;
+  margin: 0 auto;
+}
+.GridSection{
+  overflow: hidden;
+  border-radius: 20px;
+  width: 90%;
+  transition: ease-in-out .25s;
+  border: 2px solid pink;
+}
+.GridSection:hover{
+  box-shadow: 3px 3px 10px hotpink;
+}
+.GridSection > img {
+  width: 100%;
+}
+.GridSectionCaption{
+  padding: 30px 0px;
+}
+article{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ContentLink{
+  text-decoration: none;
+  color: black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.SectionCard{
+  margin: 25px;
+  box-shadow: 0px 0px 10px black;
 }

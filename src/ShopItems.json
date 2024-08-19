@@ -1,0 +1,20 @@
+[
+  {
+    "name": "iPhone Notification",
+    "id": 0,
+    "type": "widget",
+    "desc": "Create notification messages similar to the aesthetic of iPhone notifications and have them in a set time interval",
+    "link": "https://www.etsy.com",
+    "price": 10,
+    "oid": "1e371e17-cfae-4365-82b3-ca4b669b8809"
+  },
+  {
+    "name": "Chatbox",
+    "id": 1,
+    "type": "widget",
+    "desc": "A new intercative way to engage with viewers on stream",
+    "link": "https://www.google.com",
+    "price": 25,
+    "oid": "60693db5-24e7-4de3-9fdf-12e4e10e7960"
+  }
+]

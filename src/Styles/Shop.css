@@ -1,0 +1,15 @@
+.ShopItem{
+    text-align: left;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: ease-in-out .25s;
+    border: 2px solid pink;
+}
+.ShopItem:hover{
+    box-shadow: 3px 3px 10px hotpink;
+  }
+.ShopItemDetail{
+    padding: 20px;
+    text-decoration: none;
+    
+}
